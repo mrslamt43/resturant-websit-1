@@ -1,0 +1,73 @@
+HTML:
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Recipe Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#recipes">Recipes</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h2>Featured Recipe</h2>
+        <h3>Baked Ziti</h3>
+        <button>View Recipe</button>
+      </section>
+      <section class="recipes" id="recipes">
+        <h2>Popular Recipes</h2>
+        <div class="recipe">
+          <img src="https://via.placeholder.com/400x300" alt="Recipe Image" />
+          <h3>Chicken Parmesan</h3>
+          <button>View Recipe</button>
+        </div>
+        <div class="recipe">
+          <img src="https://via.placeholder.com/400x300" alt="Recipe Image" />
+          <h3>Beef Stroganoff</h3>
+          <button>View Recipe</button>
+        </div>
+        <div class="recipe">
+          <img src="https://via.placeholder.com/400x300" alt="Recipe Image" />
+          <h3>Spinach Lasagna</h3>
+          <button>View Recipe</button>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>
+          We are a team of food enthusiasts who love to share our favorite
+          recipes with others. From comfort foods to healthy options, we have
+          something for everyone.
+        </p>
+      </section>
+      <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+
